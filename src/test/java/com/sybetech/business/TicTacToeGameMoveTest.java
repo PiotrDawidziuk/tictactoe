@@ -47,8 +47,10 @@ public class TicTacToeGameMoveTest {
     }
 
     // check id is set after instantiation
-    //@Test
+    @Test
     public void whenInstantiated_ThenIdIsSet() {
+    	TicTacToeGameMove move = new TicTacToeGameMove(1,'X', 1, 2);
+    	assertEquals(1,move.getId());
 
     }
 
