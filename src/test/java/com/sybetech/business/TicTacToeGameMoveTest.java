@@ -50,7 +50,7 @@ public class TicTacToeGameMoveTest {
     @Test
     public void whenInstantiated_ThenIdIsSet() {
     	TicTacToeGameMove move = new TicTacToeGameMove(1,'X', 1, 2);
-    	assertEquals(1,move.getId());
+    	assertEquals("Asserting that id is set in the constructor",1,move.getId());
 
     }
 
